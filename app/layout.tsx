@@ -1,10 +1,9 @@
 import type React from "react"
 import type { Metadata } from "next"
+import { inter } from "@/lib/fonts" 
 import { ThemeProvider } from "@/components/theme-provider"
 import { AuthProvider } from "@/lib/auth-context"
 import { Toaster } from "@/components/ui/toaster"
-
-
 
 export const metadata: Metadata = {
   title: "Store139Transfer - Vende WLD Fácil y Seguro",
